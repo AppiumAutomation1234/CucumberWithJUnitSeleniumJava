@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd156348-2003-47c8-a6f5-4483ae860d26" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2aqNed90c9T16zlEB5IfGyY2tUm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Shareef/Selenium Java/JunitSeleniumBDDFrameworkFinal",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shareef\Selenium Java\SeleniumBDDFrameworkFinal\src\test\java\features" />
+      <recent name="D:\Shareef\Selenium Java\SeleniumBDDFrameworkFinal\src\test\resources" />
+      <recent name="D:\Shareef\Selenium Java\SeleniumBDDFrameworkFinal\drivers" />
+      <recent name="D:\Shareef\Selenium Java\SeleniumBDDFrameworkFinal\src\test\drivers" />
+      <recent name="D:\Shareef\Selenium Java\SeleniumBDDFrameworkFinal\src\test\java\drivers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cucumberOptions" />
+      <recent name="stepDefinitions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JUnitTestRunnerTest">
+    <configuration name="Feature: searchProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/searchProduct.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SeleniumBDDFrameworkFinal" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: searchProduct" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTestRunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitSeleniumBDDFrameworkFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.JUnitTestRunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailedTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBDDFrameworkFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgTestRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBDDFrameworkFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.TestNgTestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBDDFrameworkFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.TestNgTestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JUnitTestRunnerTest" />
+        <item itemvalue="TestNG.TestNgTestRunner" />
+        <item itemvalue="TestNG.FailedTestRunner" />
+        <item itemvalue="TestNG.TestNgTestRunner (1)" />
+        <item itemvalue="Cucumber Java.Feature: searchProduct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd156348-2003-47c8-a6f5-4483ae860d26" name="Changes" comment="" />
+      <created>1705042247810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705042247810</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
