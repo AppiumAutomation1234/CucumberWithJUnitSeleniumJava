@@ -1,7 +1,9 @@
 package utils;
 
+import jdk.jfr.Timespan;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.FileInputStream;
@@ -27,7 +29,15 @@ public class TestBase {
         if (driver==null) {
             if(browser.equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//src//test//resources//chromedriver.exe");
-            driver = new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("test-type");
+                options.addArguments("-disable-extensions");
+                options.addArguments("--disable-gpu");
+                options.addArguments("start-maximized");
+                options.addArguments("force-device-scale-factor=1.20");
+                this.driver = new ChromeDriver(options);
+                this.driver.manage().window().maximize();
+
             } else if (browser.equalsIgnoreCase("firefox")){
                 System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//src//test//resources//chromedriver.exe");
                 driver = new FirefoxDriver();
