@@ -187,6 +187,11 @@ public class GenericUtils {
         }
     }
 
+    public boolean isElementDisplayed(By by){
+        WebElement element = this.driver.findElement(by);
+        return element.isDisplayed();
+    }
+
     public void waitUntilAlertPresent() {
         try {
 

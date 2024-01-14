@@ -2,12 +2,13 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import utils.GenericUtils;
 
-public class CheckoutPage {
+public class CheckoutPage extends GenericUtils {
 
     public WebDriver driver;
     public CheckoutPage(WebDriver driver){
-
+        super(driver);
         this.driver = driver;
     }
 
@@ -20,28 +21,35 @@ public class CheckoutPage {
     By applyButton = By.xpath("//button[text()='Apply']");
 
     public void checkoutItems(){
-        driver.findElement(cartIcon).click();
-        driver.findElement(proceedToCheckoutButton).click();
+        elementOperations("click",cartIcon,"","");
+        //driver.findElement(cartIcon).click();
+        elementOperations("click",proceedToCheckoutButton,"","");
+        //driver.findElement(proceedToCheckoutButton).click();
     }
 
     public String getCartPageProductName() throws InterruptedException {
 
-        Thread.sleep(3000);
-        return driver.findElement(productNameInCartPage).getText();
+        waitUntilElementLocated(productNameInCartPage);
+        return returnStringValue(productNameInCartPage);
+        //return driver.findElement(productNameInCartPage).getText();
     }
 
     public boolean verifyPromoButton () throws InterruptedException {
-        Thread.sleep(3000);
-        return driver.findElement(applyButton).isDisplayed();
+        waitUntilElementLocated(applyButton);
+        return isElementDisplayed(applyButton);
+        //return driver.findElement(applyButton).isDisplayed();
     }
 
     public boolean verifyPlaceOrder () throws InterruptedException {
-        Thread.sleep(3000);
-        return driver.findElement(placeOrderButton).isDisplayed();
+        waitUntilElementLocated(placeOrderButton);
+        return isElementDisplayed(placeOrderButton);
+        //return driver.findElement(placeOrderButton).isDisplayed();
     }
 
     public void enterPromoCode(String productName) throws InterruptedException {
-        Thread.sleep(3000);
-        driver.findElement(enterPromoCodeTextbox).sendKeys(productName);
+        //Thread.sleep(3000);
+        waitUntilElementLocated(enterPromoCodeTextbox);
+        //driver.findElement(enterPromoCodeTextbox).sendKeys(productName);
+        elementOperations("sendKeys",enterPromoCodeTextbox,productName,productName);
     }
 }
